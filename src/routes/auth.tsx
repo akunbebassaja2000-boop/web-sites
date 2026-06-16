@@ -12,7 +12,7 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Login Admin — SMP Negeri Unggul" },
+      { title: "Login Admin — SMP Negeri 8 Ambon" },
       { name: "description", content: "Halaman login untuk admin sekolah." },
       { name: "robots", content: "noindex" },
     ],
@@ -79,7 +79,7 @@ function AuthPage() {
           <span className="grid h-11 w-11 place-items-center rounded-xl bg-white/15 backdrop-blur">
             <GraduationCap className="h-6 w-6" />
           </span>
-          <span className="font-display text-xl font-bold">SMP Negeri Unggul</span>
+          <span className="font-display text-xl font-bold">SMP Negeri 8 Ambon</span>
         </Link>
         <div>
           <h1 className="font-display text-4xl font-bold leading-tight">Dashboard Admin</h1>
@@ -87,7 +87,7 @@ function AuthPage() {
             Kelola berita, pengumuman, galeri, prestasi, dan agenda sekolah dalam satu tempat.
           </p>
         </div>
-        <p className="text-sm text-primary-foreground/70">© {new Date().getFullYear()} SMP Negeri Unggul</p>
+        <p className="text-sm text-primary-foreground/70">© {new Date().getFullYear()} SMP Negeri 8 Ambon</p>
       </div>
 
       <div className="flex items-center justify-center bg-background p-6 sm:p-12">

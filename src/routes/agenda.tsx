@@ -8,7 +8,7 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/agenda")({
   head: () => ({
     meta: [
-      { title: "Agenda — SMP Negeri Unggul" },
+      { title: "Agenda — SMP Negeri 8 Ambon" },
       { name: "description", content: "Jadwal kegiatan dan agenda sekolah." },
       { property: "og:title", content: "Agenda Sekolah" },
       { property: "og:description", content: "Jadwal kegiatan terbaru." },

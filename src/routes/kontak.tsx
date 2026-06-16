@@ -10,8 +10,8 @@ import { SCHOOL } from "@/lib/content";
 export const Route = createFileRoute("/kontak")({
   head: () => ({
     meta: [
-      { title: "Kontak — SMP Negeri Unggul" },
-      { name: "description", content: "Hubungi SMP Negeri Unggul." },
+      { title: "Kontak — SMP Negeri 8 Ambon" },
+      { name: "description", content: "Hubungi SMP Negeri 8 Ambon." },
       { property: "og:title", content: "Kontak" },
       { property: "og:description", content: "Alamat dan kontak sekolah." },
     ],

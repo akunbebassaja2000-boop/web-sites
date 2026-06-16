@@ -12,9 +12,9 @@ import principalImage from "@/assets/principal.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SMP Negeri Unggul — Sekolah Modern, Berkarakter, Berprestasi" },
-      { name: "description", content: "Website resmi SMP Negeri Unggul. Membentuk generasi berkarakter, berprestasi dan berwawasan global." },
-      { property: "og:title", content: "SMP Negeri Unggul" },
+      { title: "SMP Negeri 8 Ambon — Sekolah Modern, Berkarakter, Berprestasi" },
+      { name: "description", content: "Website resmi SMP Negeri 8 Ambon. Membentuk generasi berkarakter, berprestasi dan berwawasan global." },
+      { property: "og:title", content: "SMP Negeri 8 Ambon" },
       { property: "og:description", content: "Sekolah menengah pertama modern, terpercaya, dan berprestasi." },
     ],
   }),

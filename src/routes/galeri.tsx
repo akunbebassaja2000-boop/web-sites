@@ -7,10 +7,10 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/galeri")({
   head: () => ({
     meta: [
-      { title: "Galeri — SMP Negeri Unggul" },
+      { title: "Galeri — SMP Negeri 8 Ambon" },
       { name: "description", content: "Dokumentasi kegiatan sekolah, akademik, dan seni." },
       { property: "og:title", content: "Galeri Sekolah" },
-      { property: "og:description", content: "Momen-momen di SMP Negeri Unggul." },
+      { property: "og:description", content: "Momen-momen di SMP Negeri 8 Ambon." },
     ],
   }),
   component: GaleriPage,

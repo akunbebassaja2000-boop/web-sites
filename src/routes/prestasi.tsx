@@ -8,7 +8,7 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/prestasi")({
   head: () => ({
     meta: [
-      { title: "Prestasi — SMP Negeri Unggul" },
+      { title: "Prestasi — SMP Negeri 8 Ambon" },
       { name: "description", content: "Daftar prestasi siswa dan sekolah." },
       { property: "og:title", content: "Prestasi Siswa" },
       { property: "og:description", content: "Capaian akademik dan non-akademik." },

@@ -7,7 +7,7 @@ export const Route = createFileRoute("/profil")({
   head: () => ({
     meta: [
       { title: `Profil Sekolah — ${SCHOOL.name}` },
-      { name: "description", content: "Visi, misi, dan sejarah singkat SMP Negeri Unggul." },
+      { name: "description", content: "Visi, misi, dan sejarah singkat SMP Negeri 8 Ambon." },
       { property: "og:title", content: `Profil Sekolah — ${SCHOOL.name}` },
       { property: "og:description", content: "Mengenal lebih dekat sekolah kami." },
     ],
@@ -35,7 +35,7 @@ function ProfilPage() {
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {[
-            { icon: Eye, title: "Visi", body: "Menjadi sekolah unggul yang melahirkan generasi berkarakter, cerdas, dan berdaya saing global." },
+            { icon: Eye, title: "Visi", body: "Menjadi sekolah 8 Ambon yang melahirkan generasi berkarakter, cerdas, dan berdaya saing global." },
             { icon: Target, title: "Misi", body: "Menyelenggarakan pendidikan berkualitas yang menyeimbangkan akademik, karakter, dan keterampilan abad 21." },
             { icon: Heart, title: "Nilai", body: "Integritas, kepedulian, kolaborasi, dan semangat belajar sepanjang hayat." },
           ].map((c) => (

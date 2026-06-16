@@ -41,7 +41,7 @@ export function AdminSidebar({ email }: { email?: string }) {
         </span>
         <div>
           <div className="font-display text-sm font-bold leading-tight text-foreground">Admin Panel</div>
-          <div className="text-[11px] text-muted-foreground">SMP Negeri Unggul</div>
+          <div className="text-[11px] text-muted-foreground">SMP Negeri 8 Ambon</div>
         </div>
       </Link>
 

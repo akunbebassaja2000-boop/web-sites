@@ -8,8 +8,8 @@ import { supabase } from "@/integrations/supabase/client";
 export const Route = createFileRoute("/berita")({
   head: () => ({
     meta: [
-      { title: "Berita — SMP Negeri Unggul" },
-      { name: "description", content: "Berita dan kabar terbaru dari SMP Negeri Unggul." },
+      { title: "Berita — SMP Negeri 8 Ambon" },
+      { name: "description", content: "Berita dan kabar terbaru dari SMP Negeri 8 Ambon." },
       { property: "og:title", content: "Berita Sekolah" },
       { property: "og:description", content: "Ikuti perkembangan terbaru dari sekolah kami." },
     ],

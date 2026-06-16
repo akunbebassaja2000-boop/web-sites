@@ -9,12 +9,12 @@ import g5 from "@/assets/gallery-5.jpg";
 import g6 from "@/assets/gallery-6.jpg";
 
 export const SCHOOL = {
-  name: "SMP Negeri Unggul",
-  shortName: "SMPN Unggul",
+  name: "SMP Negeri 8 Ambon",
+  shortName: "SMPN 8 Ambon",
   motto: "Membentuk Generasi Berkarakter, Berprestasi dan Berwawasan Global",
   address: "Jl. Pendidikan No. 1, Jakarta Selatan 12345",
   phone: "(021) 1234-5678",
-  email: "info@smpnunggul.sch.id",
+  email: "info@smpn8 Ambon.sch.id",
 };
 
 export const NAV = [

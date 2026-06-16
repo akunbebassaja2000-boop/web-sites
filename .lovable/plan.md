@@ -33,7 +33,7 @@ Setiap route punya `head()` sendiri (title + meta description unik).
 Mengikuti wireframe yang diminta:
 
 1. **Navbar** — logo + menu (Beranda, Profil, Berita, Galeri, Prestasi, Agenda, Kontak) + tombol "Login Admin" (emas) di kanan. Sticky, responsive (hamburger di mobile).
-2. **Hero** — foto sekolah fullscreen (placeholder image dulu), overlay gelap, judul besar "SMP NEGERI UNGGUL", motto, tombol "Profil Sekolah" (emas) + "Pelajari Lebih Lanjut" (outline).
+2. **Hero** — foto sekolah fullscreen (placeholder image dulu), overlay gelap, judul besar "SMP NEGERI 8 Ambon", motto, tombol "Profil Sekolah" (emas) + "Pelajari Lebih Lanjut" (outline).
 3. **Statistik** — 4 kartu angka besar: 500 Siswa, 35 Guru, Akreditasi A, +50 Prestasi.
 4. **Sambutan Kepala Sekolah** — foto kiri, kutipan + nama/jabatan kanan.
 5. **Pengumuman Penting** — banner highlight (background biru muda/emas tipis) dengan icon 📢, judul + tanggal + tombol "Lihat Semua".
